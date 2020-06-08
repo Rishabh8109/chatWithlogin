@@ -1,0 +1,72 @@
+     @import "https://fonts.googleapis.com/css2?family=Lato&display=swap";
+
+
+
+     body {
+          background-color: cadetblue;
+          font-family: 'Lato' , sans-serif;
+          
+       }
+
+     h4 {
+          font-family: Arial, Helvetica, sans-serif;
+          text-transform: uppercase;
+     }
+     .message-box {
+          height: 600px;
+     }
+     .msg-box {
+          width: initial;
+          float: left;
+          margin-bottom: 1em;
+          margin-left: 1em;
+         border: none;
+          
+     }
+     #messages {
+     height: 500px;
+     overflow-y:scroll;
+     overflow-wrap: break-word;
+
+     }
+
+
+     @media (max-width:700px) {
+     
+     .on-mobile {
+          display: flex;
+          display: block;
+          content: "";
+          clear: both;
+     }
+
+     #msg {
+          float: left;
+          width: 75%;
+     }
+     
+     .btn-dark {
+          float: right;
+          width: 20%;
+          transform: translateY(-100%);
+     }
+     }
+     .bg-success {
+         background-color: none;
+     }
+
+     .bg-darkBlue {
+         background-color: rgb(2, 2, 39);
+         color: white;
+         border-top-right-radius: 6px;
+         border-bottom-right-radius: 6px;
+         border-top-left-radius: 6px;
+     }
+
+     .bg-primary2 {
+          background-color: rgb(14, 63, 148);
+          color: white;
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px;
+     }
